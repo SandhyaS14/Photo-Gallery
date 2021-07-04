@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Space Photo Gallery</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <ul class="menu">
+            <li class="menuchoices"> Home</li>
+            <li class="menuchoices"> Grid</li>
+            <li class="menuchoices"> Slide</li>
+        </ul>
+        <section id="Home">
+            <img src="https://cdn.wallpapersafari.com/72/90/e9oqyG.jpg" id="Homeimage">
+        </section>
+        <section id="Grid">
+            <h1>Grid View</h1>
+            <div class="line"></div>
+            <div>
+                <img src="Space1.png" class="images">
+                <img src="Space2.jpg" class="images">
+                <img src="Space3.png" class="images">
+            </div>
+            <img src="Space4.jpg" class="images">
+            <img src="Space5.png" class="images">
+            <img src="Space6.png" class="images">
+        </section>
+        <section id="Slide">
+            <h1>Slide View</h1>
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="Space3.png" class="images">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Space5.png" class="images">
+                        </center>
+                    </div>
+                </div>
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </body>
+    </html>

@@ -1,0 +1,81 @@
+.images {
+    height: 300px;
+    width: 300px;
+}
+
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+body {
+    text-align: center;
+}
+
+
+#Homeimage {
+    height: 500px;
+    width: 800px;
+}
+
+
+#Home {
+    background: linear-gradient(#fe003f 0%, #ff00f3 100%);
+    overflow: hidden;
+    height: 800px;
+    color:#FFFFFF;
+    display: table;
+    width: 100%;
+        
+}
+
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    background: #FFFFFF;
+    margin-top: 0px;
+    width:100%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+
+.menuchoices {
+    display: inline;
+    background-color: #ff089d;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times;
+}
+
+.menuchoices:hover {
+    font-size: 25px;
+    background-color: #00ffff;
+}
+
+
+#mycarousel {
+    background-color: red;    
+}
+
+
+#mycarousel img {
+    height:300px;
+    margin-top: 35px;
+}
+
+
+.carousel-inner p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
